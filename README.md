@@ -32,7 +32,7 @@ A simple REST API for managing notes, built with Express.js and MongoDB.
 1.  Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/bilal-algorithms/notes-manager.git
     cd expressJs
     ```
 
