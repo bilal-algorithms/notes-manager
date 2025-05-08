@@ -1,0 +1,26 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Building API'S with Express.js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && nodemon dist/app.js"
+  },
+  "keywords": [],
+  "author": "Bilal Kanjelkheir",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.14.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  }
+}
